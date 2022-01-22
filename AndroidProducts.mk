@@ -13,7 +13,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_yt9216bj.mk
+    $(LOCAL_DIR)/omni_yt9216bj.mk
 
 
 COMMON_LUNCH_CHOICES := \

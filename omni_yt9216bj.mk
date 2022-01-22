@@ -23,8 +23,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_yt9216bj
+PRODUCT_NAME := omni_yt9216bj
 PRODUCT_DEVICE := yt9216bj
 PRODUCT_BRAND := china
-PRODUCT_MANUFACTURER := china
+PRODUCT_MANUFACTURER := Camecho
+PRODUCT_MODEL := YT9216BJ
+PRODUCT_RELEASE_NAME := CAMECHO YT9216BJ
 PRODUCT_GMS_CLIENTID_BASE := android-china
