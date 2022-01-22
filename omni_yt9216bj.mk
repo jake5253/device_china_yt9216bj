@@ -11,15 +11,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from 8227L_demo device
-$(call inherit-product, device/Camecho/YT9216BJ/device.mk)
+$(call inherit-product, device/camecho/yt9216bj/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := YT9216BJ
-PRODUCT_NAME := omni_YT9216BJ
-PRODUCT_BRAND := Camecho
-PRODUCT_MODEL := YT9216BJ
-PRODUCT_MANUFACTURER := Camecho
+PRODUCT_DEVICE := yt9216bj
+PRODUCT_NAME := omni_yt9216bj
+PRODUCT_BRAND := camecho
+PRODUCT_MODEL := yt9216bj
+PRODUCT_MANUFACTURER := camecho

@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/Camecho/YT9216BJ
+DEVICE_PATH := device/camecho/yt9216bj
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -18,7 +18,7 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := YT9216BJ
+TARGET_OTA_ASSERT_DEVICE := yt9216bj
 
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -46,8 +46,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/Camecho/YT9216BJ
-TARGET_KERNEL_CONFIG := YT9216BJ_defconfig
+TARGET_KERNEL_SOURCE := kernel/camecho/yt9216bj
+TARGET_KERNEL_CONFIG := yt9216bj_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := ac8227l

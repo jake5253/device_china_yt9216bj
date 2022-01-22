@@ -5,4 +5,4 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/Camecho/YT9216BJ
+LOCAL_PATH := device/camecho/yt9216bj

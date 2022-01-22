@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_YT9216BJ.mk
+    $(LOCAL_DIR)/omni_yt9216bj.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_YT9216BJ-user \
-    omni_YT9216BJ-userdebug \
-    omni_YT9216BJ-eng
+    omni_yt9216bj-user \
+    omni_yt9216bj-userdebug \
+    omni_yt9216bj-eng
